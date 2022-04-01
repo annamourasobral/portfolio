@@ -27,6 +27,7 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
+  background-color: violet;
 }
 
 .about-img {
@@ -38,13 +39,13 @@
 .about-right {
   flex: 1;
   height: 100%;
-  background-color: blue;
+  position: relative;
 }
 
 .about-right-wrapper {
-  display: flex;
-  flex-direction: column;
-  position: center;
+  position: absolute;
+  top: 50%;
+  margin-top:  -25px;
 }
 
 @media screen and (max-width:480px) {
