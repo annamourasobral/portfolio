@@ -6,21 +6,17 @@ const About = () => {
             <div className="about-left">
                 <div className="about-card-bg"></div>
                 <div className="about-card">
-                    <img src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="about-img"/>
+                    <img src="https://images.pexels.com/photos/1804177/pexels-photo-1804177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="about-img"/>
                 </div>
             </div>
             <div className="about-right">
                 <div className="about-right-wrapper">
                     <h1 className="about-title">About Me</h1>
                     <p className="about-sub">
-                        It is a long established fact that a reader will be distracted by the
-                        readable content.
+                        I'm from Rio de Janeiro, Brazil, and love cultural exchanges, travels and of course, its records in form of photograph.
                     </p>
                     <p className="about-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                        Living and following the beauty in every corner of the world I grow a repertory to bring more life and joy to my work.
                     </p>
                 </div>
             </div>
