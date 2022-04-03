@@ -1,10 +1,10 @@
-.about {
+.a {
   height: 100vh;
   display: flex;
   align-items: center;
 }
 
-.about-left {
+.a-left {
   flex: 1;
   display: flex;
   align-items: center;
@@ -13,14 +13,18 @@
   height: 100%;
 }
 
-.about-card-bg {
+.a-right {
+  flex: 1;
+}
+
+.a-card.bg {
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: red;
+  background-color: #eb3079;
 }
 
-.about-card {
+.a-card {
   width: 60%;
   height: 70vh;
   border-radius: 30px;
@@ -28,45 +32,44 @@
   overflow: hidden;
 }
 
-.about-img {
+.a-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 30px;
 }
 
-.about-right {
-  flex: 1;
-  height: 100%;
-  position: relative;
+.a-title {
+  font-weight: 400;
 }
 
-.about-right-wrapper {
-  position: absolute;
-  top: 50%;
-  margin-top: -25px;
+.a-sub {
+  margin: 20px 0px;
+}
+
+.a-desc{
+    font-weight: 300;
 }
 
 @media screen and (max-width:480px) {
-  .about{
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-  }
+    .a{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
 
-  .about-left {
-    width: 100%;
-  }
+    .a-left {
+      width: 100%;
+    }
 
-  .about-card {
-    height: 30vh;
-  }
+    .a-card {
+      height: 30vh;
+    }
 
-  .about-card.bg {
-    display: none;
-  }
+    .a-card.bg, .a-award {
+      display: none;
+    }
 
-  .about-right{
-    padding: 20px;
-  }
+    .a-right{
+      padding: 20px;
+    }
 }
