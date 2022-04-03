@@ -1,7 +1,7 @@
 import "./contact.css";
-import Phone from "../../img/icons/phone.png";
-import Email from "../../img/icons/email.png";
-import Address from "../../img/icons/address.png";
+import Phone from "../../img/phone.png";
+import Email from "../../img/email.png";
+import Address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from "../../context.js";
