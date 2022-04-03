@@ -1,7 +1,7 @@
 import "./contact.css";
-import Phone from "../../img/phone.png";
-import Email from "../../img/email.png";
-import Address from "../../img/address.png";
+import Phone from "../../img/icons/phone.png";
+import Email from "../../img/icons/email.png";
+import Address from "../../img/icons/address.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from "../../context.js";
@@ -50,7 +50,7 @@ const Contact = () => {
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
               Bagsværd, 2880
-              Hovedstaden, Denmark
+              <br/>Hovedstaden, Denmark
             </div>
           </div>
         </div>
@@ -60,12 +60,12 @@ const Contact = () => {
             freelancing if the right project comes along. me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder="Email" name="user_email" />
+            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder="Subject" name="user_subject" />
+            <textarea style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done && "  Thank you..."}
           </form>
         </div>
       </div>
