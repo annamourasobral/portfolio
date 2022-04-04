@@ -11,22 +11,12 @@ export const products = [
   },
   {
     id: 3,
-    img: "",
-    link: "http://lama.dev",
+    img: "https://i.ibb.co/JdM7xXz/screencapture-file-Users-annamourasobral-Documents-Git-Hub-barbershop-index-html-2022-04-04-19-09-11.png",
+    link: "https://github.com/annamourasobral/barbershop",
   },
   {
     id: 4,
-    img: "",
-    link: "http://lama.dev",
-  },
-  {
-    id: 5,
-    img: "",
-    link: "http://lama.dev",
-  },
-  {
-    id: 6,
-    img: "",
-    link: "http://lama.dev",
+    img: "https://i.ibb.co/m9N7qLt/cars.png",
+    link: "https://github.com/annamourasobral/Cars-ladingpage",
   },
 ];

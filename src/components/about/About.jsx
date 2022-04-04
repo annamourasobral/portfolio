@@ -16,14 +16,12 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          I'm a Front-End programmer, originally from Rio de Janeiro - Brazil, now living in Copenhagen - Denmark.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          Currently, I develop websites and games, and challenge myself to code every day, to develop and refine my skills in some technologies used in Front-End such as HTML, CSS, JavaScript, etc.
+          Also, I am a bachelor's student in Computer Science at Uniamérica. I use Alura - which is an edTech- platform, for independent students to learn content in technology and increase their productivity.
+          I'm excited to share my skills, connect and learn from other developers, on my journey to live off my passion.
         </p>
       </div>
     </div>
