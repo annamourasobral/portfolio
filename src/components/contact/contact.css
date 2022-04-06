@@ -90,6 +90,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+    .c{
+        height: 70vh;
+    }
+
     .c-wrapper {
         flex-direction: column;
         padding: 0px 50px;

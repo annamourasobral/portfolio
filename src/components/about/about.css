@@ -57,6 +57,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
+    height: 80vh;
   }
 
   .a-left {
