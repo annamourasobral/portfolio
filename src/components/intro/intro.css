@@ -123,6 +123,10 @@
     flex-direction: column;
   }
 
+  .i-name {
+    font-size: 40px;
+  }
+
   .i-left-wrapper {
     padding: 10px;
     align-items: center;

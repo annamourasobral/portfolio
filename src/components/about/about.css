@@ -52,26 +52,40 @@
   margin: 0 50px 0 20px;
 }
 
-  @media screen and (max-width:480px) {
-    .a {
-      flex-direction: column;
-      text-align: center;
-      margin-top: 50px;
-    }
-
-    .a-left {
-      width: 100%;
-    }
-
-    .a-card {
-      height: 30vh;
-    }
-
-    .a-card.bg {
-      display: none;
-    }
-
-    .a-right {
-      padding: 20px;
-    }
+@media screen and (max-width:480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
   }
+
+  .a-left {
+    width: 100%;
+  }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg {
+    display: none;
+  }
+
+  .a-right {
+    padding: 20px;
+  }
+
+  .a-title {
+    margin: 0 20px 0 20px;
+  }
+
+  .a-sub {
+    margin: 0 20px 0 20px;
+  }
+
+  .a-desc {
+    flex-wrap: wrap;
+    margin: 0 20px 0 20px;
+  }
+}
+

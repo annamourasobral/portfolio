@@ -19,9 +19,8 @@ const About = () => {
           I'm a Front-End programmer, originally from Rio de Janeiro - Brazil, now living in Copenhagen - Denmark.
         </p>
         <p className="a-desc">
-          Currently, I develop websites and games, and challenge myself to code every day, to develop and refine my skills in some technologies used in Front-End such as HTML, CSS, JavaScript, etc.
-          Also, I am a bachelor's student in Computer Science at Uniamérica. I use Alura - which is an edTech- platform, for independent students to learn content in technology and increase their productivity.
-          I'm excited to share my skills, connect and learn from other developers, on my journey to live off my passion.
+          I develop websites and challenging myself to code every day, to develop and refine my skills in technologies use in Front-End such as HTML, CSS, JavaScript, etc.
+          Also, I am a bachelor's student in Computer Science at Uniamérica.
         </p>
       </div>
     </div>
