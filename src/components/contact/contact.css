@@ -5,7 +5,7 @@
 
 .c-bg {
     width: 20px;
-    height: 100%;
+    height: 100vh;
     background-color: #283592;
     position: absolute;
 }
@@ -91,7 +91,11 @@ footer {
 
 @media screen and (max-width: 480px) {
     .c{
-        height: 70vh;
+        height: 100vh;
+    }
+
+    .c-left {
+        margin-top: 30px;
     }
 
     .c-wrapper {
@@ -119,14 +123,14 @@ footer {
     }
 
     input {
-        width: 35%;
+        width: 50%;
         height: 40px;
         margin: 10px;
         margin-left: 0;
     }
 
     textarea {
-        margin: 15px;
+        margin-top: 30px;
     }
 
     button {

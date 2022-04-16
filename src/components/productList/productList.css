@@ -1,4 +1,5 @@
 .pl {
+  height: 100vh;
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
@@ -24,6 +25,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.github {
+  margin-top: 100px;
+}
+
+a, a ::after, a ::before {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {

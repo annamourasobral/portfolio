@@ -5,7 +5,6 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
-import {Helmet} from "react-helmet";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -18,13 +17,6 @@ const App = () => {
         color: darkMode && "white",
       }}
     >
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Anna Moura Sobral - Portfolio</title>
-      <link rel="canonical" href="http://annamourasobral.com" />
-      <meta name="description" content="Anna Moura Sobral's Portfolio" />
-      
-    </Helmet>
       <Toggle />
       <Intro />
       <About />
