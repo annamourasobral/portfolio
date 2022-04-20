@@ -19,10 +19,8 @@ const About = () => {
           I'm a Front-End programmer, originally from Rio de Janeiro - Brazil, now living in Copenhagen - Denmark.
         </p>
         <p className="a-desc">
-          I have working proficiency in HTML, CSS, Bootstrap, jQuery, and JavaScript. I am also very comfortable using Git version control.
-          Furthermore, I possess a fundamental understanding of mobile-first design concepts. Work with APIs and object-oriented programming.
-          I plan to expand my skill set by learning ReactJS, eventually growing into a Full Stack!
-          Until then, I will hone in on my current talents and keep hacking away until I reach my desired level of expertise.
+          I develop websites and challenging myself to code every day, to develop and refine my skills in technologies use in Front-End such as HTML, CSS, JavaScript, etc.
+          Also, I am a bachelor's student in Computer Science at Uniamérica.
         </p>
       </div>
     </div>

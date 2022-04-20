@@ -14,4 +14,9 @@ export const products = [
     img: "https://i.ibb.co/JdM7xXz/screencapture-file-Users-annamourasobral-Documents-Git-Hub-barbershop-index-html-2022-04-04-19-09-11.png",
     link: "https://github.com/annamourasobral/barbershop",
   },
+  {
+    id: 4,
+    img: "https://i.ibb.co/m9N7qLt/cars.png",
+    link: "https://github.com/annamourasobral/Cars-ladingpage",
+  },
 ];

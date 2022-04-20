@@ -48,7 +48,6 @@
 }
 
 .a-desc {
-  display: flex;
   font-weight: 300;
   margin: 0 50px 0 20px;
 }
@@ -58,7 +57,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
-    height: 100vh;
+    height: 80vh;
   }
 
   .a-left {
