@@ -4,15 +4,6 @@ import Me from "../../img/me.png";
 const Intro = () => {
     return (
         <div className="i">
-            <div className="navbar">
-                <nav>
-                    <ul>
-                        <li><a href="a">About Me</a></li>
-                        <li><a href="pl">Portfolio</a></li>
-                        <li><a href="c">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hello, my name is</h2>
