@@ -1,4 +1,5 @@
 import "./about.css";
+import cv from "../../../src/cv_ANNAMOURASOBRAL.pdf"
 
 const About = () => {
   return (
@@ -19,9 +20,10 @@ const About = () => {
           I'm a Front-End programmer, originally from Rio de Janeiro - Brazil, now living in Copenhagen - Denmark.
         </p>
         <p className="a-desc">
-          I develop websites and challenging myself to code every day, to develop and refine my skills in technologies use in Front-End such as HTML, CSS, JavaScript, etc.
-          Also, I am a bachelor's student in Computer Science at Uniamérica.
+          I develop websites and challenging myself to code every day, to develop and refine my skills in technologies use in Front-End such as Typescript React.js, Styled-components, node.js, etc.
+          Also, I am a bachelor's student in Computer Science at Uniamerica College.
         </p>
+        <a href={cv} download><button className="a-btn">Download my CV</button></a>
       </div>
     </div>
   );
