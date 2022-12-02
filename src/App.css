@@ -1,0 +1,15 @@
+nav {
+    width: 100vw;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
