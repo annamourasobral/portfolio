@@ -1,28 +1,25 @@
 import React from 'react';
-import AboutMe from '../pages/AboutMe';
-import ContactMe from '../pages/ContactMe';
-import DownloadMyCV from '../pages/DownloadMyCV';
-import Projects from '../pages/Projects';
-import Skills from '../pages/Skills';
-
 const Navbar = () => {
     return (
         <nav>
             <ul>
                 <li>
-                    <AboutMe />
+                    <a href='#Home'>Home</a>
                 </li>
                 <li>
-                    <Projects />
+                    <a href='#AboutMe'>About me</a>
                 </li>
                 <li>
-                    <Skills />
+                    <a href='#Projects'>Projects</a>
                 </li>
                 <li>
-                    <ContactMe />
+                    <a href='#Skills'>Skills</a>
                 </li>
                 <li>
-                    <DownloadMyCV />
+                    <a href='#ContactMe'>Contact me</a>
+                </li>
+                <li>
+                    <a href='#DownloadMyCV'>Download my CV</a>
                 </li>
             </ul>
         </nav>

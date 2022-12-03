@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 10%;
+    background-color: #161616;
+    color: #fff;
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#AboutMe {
+    width: 100vw;
+    height: 100vh;
+}

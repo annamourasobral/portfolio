@@ -1,11 +1,20 @@
 import React from 'react';
-import './App.css';
-import Navbar from './components/navbar';
+import AboutMe from './pages/AboutMe';
+import ContactMe from './pages/ContactMe';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
+import DownloadMyCV from './pages/DownloadMyCV';
+import Home from './pages/Home';
 
 function App() {
     return (
         <div>
-            <Navbar />
+            <Home />
+            <AboutMe />
+            <Projects />
+            <Skills />
+            <ContactMe />
+            <DownloadMyCV />
         </div>
     );
 }
