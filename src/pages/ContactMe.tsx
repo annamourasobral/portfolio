@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ContactMe = () => {
-    return <div>ContactMe</div>;
+    return <div className='page-container'>ContactMe</div>;
 };
 
 export default ContactMe;

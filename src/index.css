@@ -1,33 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Urbanist:wght@300;400;500;700&display=swap');
+
+/* 
+Fonts available :
+font-family: 'Inter', sans-serif;
+font-family: 'Urbanist', sans-serif;
+
+Color pallete:
+- Claret : #821539
+- Raspberry : #ed145b
+- UA Red : #d71253
+
+Neutrals:
+- Black: #000;
+- Eerie Black : #161616;
+- White : #fff;
+*/
+
 body {
     margin: 0;
     padding: 0;
     top: 0;
+    background-color: #000;
+    color: #fff;
 }
+
+/* NAVBAR */
 
 nav {
     width: 100vw;
-    height: 10%;
-    background-color: #161616;
-    color: #fff;
-    font-size: 2rem;
+    height: 10vh;
     position: fixed;
     top: 0;
+    background-color: #000;
+    font-size: 2rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
 }
 
 ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
 li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 
-main {
+.page-container {
     width: 100vw;
     height: 100vh;
 }
@@ -36,6 +56,25 @@ a:link,
 a:visited {
     color: #fff;
     text-decoration: none;
+}
+
+a:hover {
+    color: #ed145b;
+    font-weight: 500;
+}
+
+/* HOMEPAGE */
+
+#Home {
+    background-image: url(https://images.unsplash.com/photo-1641489711538-94231d0976da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=771&q=80);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #000;
+}
+
+#avatar {
+    width: 30%;
+    border-radius: 50%;
 }
 
 #AboutMe {

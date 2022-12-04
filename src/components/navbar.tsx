@@ -4,22 +4,22 @@ const Navbar = () => {
         <nav>
             <ul>
                 <li>
-                    <a href='#Home'>Home</a>
+                    <a href='#Home'>Anna Moura Sobral</a>
                 </li>
                 <li>
-                    <a href='#AboutMe'>About me</a>
+                    <a href='#AboutMe'>about me</a>
                 </li>
                 <li>
-                    <a href='#Projects'>Projects</a>
+                    <a href='#Projects'>projects</a>
                 </li>
                 <li>
-                    <a href='#Skills'>Skills</a>
+                    <a href='#Skills'>skills</a>
                 </li>
                 <li>
-                    <a href='#ContactMe'>Contact me</a>
+                    <a href='#ContactMe'>contact me</a>
                 </li>
                 <li>
-                    <a href='#DownloadMyCV'>Download my CV</a>
+                    <a href='#DownloadMyCV'> my cv</a>
                 </li>
             </ul>
         </nav>
