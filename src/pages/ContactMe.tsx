@@ -1,7 +1,11 @@
 import React from 'react';
 
 const ContactMe = () => {
-    return <div className='page-container'>ContactMe</div>;
+    return (
+        <div id='contact-me' className='page-container'>
+            ContactMe
+        </div>
+    );
 };
 
 export default ContactMe;

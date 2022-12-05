@@ -3,7 +3,7 @@ import avatar from '../assets/avatar.jpg';
 
 const AboutMe = () => {
     return (
-        <div className='page-container' id='AboutMe'>
+        <div id='about-me' className='page-container'>
             <img id='avatar' src={avatar} alt='avatar' />
         </div>
     );
