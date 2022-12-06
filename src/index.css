@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Urbanist:wght@300;400;500;700&display=swap');
 
+:root {
+    --inter: 'Inter', sans-serif;
+    --urban: 'Urbanist', sans-serif;
+    --violet: #821539;
+    --pink: #ed145b;
+    --red: #d71253;
+    --black: #000;
+    --grey: #161616;
+    --white: #000;
+}
+
 /* 
 Fonts available :
 font-family: 'Inter', sans-serif;
@@ -58,7 +69,6 @@ a:visited {
 
 a:hover {
     color: #ed145b;
-    font-weight: 500;
 }
 
 /* HOMEPAGE */
@@ -69,6 +79,8 @@ a:hover {
     background-position: right;
     background-color: #000;
 }
+
+
 
 #avatar {
     width: 30%;
