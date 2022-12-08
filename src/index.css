@@ -64,11 +64,17 @@ a:hover {
     background-color: #000;
 }
 
+#wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
 #text-wrapper {
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 3rem;
     font-family: var(--merri);
 }
 
@@ -76,9 +82,14 @@ a:hover {
     font-size: 5rem
 }
 
+#line {
+    width: 10rem;
+    padding-bottom: 4rem;
+    border-top: 2px solid var(--pink);
+}
 
 #avatar {
-    width: 30%;
+    width: 40rem;
     border-radius: 50%;
 }
 
