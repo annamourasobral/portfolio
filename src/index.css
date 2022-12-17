@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Merriweather:wght@300;400;700&display=swap');
+
+:root {
+    --inter: 'Inter', sans-serif;
+    --merri: 'Merriweather', serif;
+    --violet: #821539;
+    --pink: #ed145b;
+    --red: #d71253;
+    --black: #000;
+    --grey: #161616;
+    --white: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* NAVBAR */
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    background-color: #000;
+    font-size: 2rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ed145b;
+}
+
+/* HOMEPAGE */
+
+#home {
+    background-image: url(https://images.unsplash.com/photo-1641489711538-94231d0976da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=771&q=80);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #000;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#text-wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    font-family: var(--merri);
+}
+
+#fz {
+    font-size: 5rem
+}
+
+#line {
+    width: 10rem;
+    padding-bottom: 4rem;
+    border-top: 2px solid var(--pink);
+}
+
+#avatar {
+    width: 40rem;
+    border-radius: 50%;
+}
+
+#about-me {
+    width: 100vw;
+    height: 100vh;
+}
